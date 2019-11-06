@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home page</a></li>
+                <li><a href="over-mij.html">hobby's</a></li>
+                <li><a href="projecten.html">Projecten</a></li>
+                <li><a href="vaardigheden.html">kwaliteiten</a></li>
+                <li><a href="contact.html">Contact gegevens</a></li>
+                <li> <a href="https://github.com/ROC-van-Amsterdam-College-Amstelland/project-portfolio-girlpower-xo">GitHub</a> </li>
+                <li>
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                        <style>
+                        .fa {
+                          font-size: 50px;
+                          cursor: pointer;
+                          user-select: none;
+                        }
+                        
+                        .fa:hover {
+                          color: white;
+                        }
+                        </style>
+                        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+                        <script>
+                        function myFunction(x) {
+                          x.classList.toggle("fa-thumbs-down");
+                        }
+                        </script>
+                        
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+            <img id="logoiris" src="image/logo2.jpg" alt="">
+            
+        <p id="paragraaf">
+            Iris Petersen<br>
+            Scholeksterlaan 56 Vineveen<br>
+            iris.petersen@student.rocva.nl<br>
+            06403333341<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+             <a href="https://nl.linkedin.com/">linkedin</a><br>
+        
+           
+        </p>
+
+        <div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">Voor naam</label>
+    <input type="text" id="fname" name="firstname" placeholder="jouw naam..">
+
+    <label for="lname">Achternaam</label>
+    <input type="text" id="lname" name="lastname" placeholder="jouw achternaam..">
+
+
+    <label for="subject">feedback</label>
+    <textarea id="subject" name="subject" placeholder="schrijf iets.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+        
+        </main>
+
+
+    <footer> 
+            Iris Petersen
+            <p>scholeksterlaan 56 Vinkeveen</p> 
+            <p>iris.petersen@student.rocva.nl</p> 
+            <p>0640333341</p>
+            <p id="vandaag"></p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
